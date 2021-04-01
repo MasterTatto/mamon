@@ -1,0 +1,48 @@
+@import '_header.scss';
+// @import '_resp';
+@import '_sitting';
+.header {
+	width: 100%;
+	max-width: 1180px;
+	margin: 0 auto;
+	border: 0.1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	.nav {
+		display: flex;
+		justify-content: flex-start;
+		font-size: 14px;
+		align-items: center;
+		li {
+			margin-left: 15px;
+		}
+		a {
+			color: #202020;
+		}
+	}
+}
+.logo_img {
+	display: block;
+	width: 58px;
+	height: 58px;
+	margin-right: 20px;
+	background-image: url(../img/mamon-logo.svg);
+}
+.logo_text {
+	font-size: 24px;
+	color: #202020;
+	font-weight: bold;
+}
+.logo {
+	display: flex;
+	align-items: center;
+}
+.nav_btn {
+	background-color: #5528ff;
+	border-radius: 5px;
+	padding: 10px 15px;
+	color: #fff;
+}
